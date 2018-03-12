@@ -19,11 +19,16 @@ Instructions for getting the Amazon Web Services Command Line Interface running,
     3. your default region (it's ok to stay with the default for now by hitting enter)
     4. your default output format (it's ok to stay with json as the default)
     You can get your keys from your administrator--do not share them with anyone. In fact, it's completely fine to delete them once you've configured the cli because we can totally get you new keys anytime you want.  This is not like a password--you won't have to enter it every time.  Which now means that your computer password IS the password to our S3 storage.  Which means that it needs to be insanely secure and that you can never leave yourself logged in on any machine.  **NEVER EVER.**
-6. You should now have access to the bucket(s) your admin gave you access to.  You'll need to know the name of the bucket for the rest of the steps here, so make sure that you get it.  In the rest of the steps, we'll just call the bucket `my-bucket`.  But wherever you see this in the instructions you'll obviously replace it with the real name of your bucket.
-7. To see what's in your bucket, type `aws s3 ls s3://my-bucket`.  Not all of the typical bash commands work with `aws s3`, but this one does.
-8. To copy something to your bucket, type `aws s3 cp [path to my file] s3://my-bucket/subfolder/filename.ext`, with `subfolder` and `filename.ext` replaced with what you actually want them to be.
-9. Typically, we want to copy very large numbers of files, and to do this we'll be copying folders recursively.  On our team, we often have things that need to go to s3 staged in a folder called `transfer_to_s3`, in which case, the recursive copy command might look something like this:
+
+## USING THE AWS CLI
+1. You should now have access to the bucket(s) your admin gave you access to.  You'll need to know the name of the bucket for the rest of the steps here, so make sure that you get it.  In the rest of the steps, we'll just call the bucket `my-bucket`.  But wherever you see this in the instructions you'll obviously replace it with the real name of your bucket.
+2. To see what's in your bucket, type `aws s3 ls s3://my-bucket`.  Not all of the typical bash commands work with `aws s3`, but this one does.
+3. To copy something to your bucket, type `aws s3 cp [path to my file] s3://my-bucket/subfolder/filename.ext`, with `subfolder` and `filename.ext` replaced with what you actually want them to be.
+4. Typically, we want to copy very large numbers of files, and to do this we'll be copying folders recursively.  On our team, we often have things that need to go to s3 staged in a folder called `transfer_to_s3`, in which case, the recursive copy command might look something like this:
     ```
     aws s3 cp --recursive mydrive/2017/01 s3://my-bucket/2017/01
     ```
     And that's basically it!
+
+## ADVANCED steps
+Beyond this, to take things to the next level, contact your admin about learning to create buckets and manage the policies associated with them.  We usually want to control who has access, and we may also want to write little bits of JSON that determine how long we hang on to files in our buckets, when they get sent to Glacier, what we do with broken multi-part uploads, etc. etc.
