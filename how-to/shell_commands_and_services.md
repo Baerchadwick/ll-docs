@@ -17,7 +17,16 @@ There are a couple of command line tools that we use a lot for processing video:
     export PATH="/Users/ll/Development/_tools:$PATH"
     PS1='\W $ '
     ```
-3. You should now be able to run ffmpeg and ffprobe from the command line.  To get a whole bunch of information about a video file, type
+3. You should now be able to run ffmpeg and ffprobe from the command line.  To get a whole bunch of information about a video file, type `ffprobe path/to/my/movie.mov`, replacing that path with the actual path to your file (you can actually DRAG the file from Finder into the terminal window and when you let go the path will magically appear).  To get nicely formatted, more readable JSON, type `ffprobe -v quiet -print_format json -show_format -show_streams path/to/my/movie.mov`, again substituting your path for that placeholder.  That JSON output is what we use throughout [thelocalworkflow](https://github.com/learninglab-dev/thelocalworkflow) to get information on the video files we want to manipulate.
+4. To transcode a video and strip the audio, for instance, you can type `ffmpeg -i input.mov -c:v libx264 -preset slow -crf 22 -an output.mp4`, and this sort of conversion is one of the things ffmpeg is great for.
+5. To take a short piece of video and turn it into a .`.gif` file you COULD enter `ffmpeg -i input.mov output.gif`, but you try that you'll see that you end up with a monstrously large gif. Typically you'll want to reduce the resolution and maybe even the frame rate.
+6. To reduce the framerate, try adding `-vf scale=480:270` to your command.  This will reduce each dimension to 25% of the original 1920x1080 file.  The complete command is now `ffmpeg -i input.mov -vf scale=480:270 output.gif`.
+7.  If you want to take your gif-making seriously, you'll want to generate a `palette.png` file from the colors that are present in your image. Read [this link](http://blog.pkh.me/p/21-high-quality-gif-with-ffmpeg.html) if you want to learn more, but the tldr of it is that you can only use 256 colors in your gif, and instead of just choosing the 256 that run across the entire spectrum, you should choose 256 that actually correspond best to your image (a gif of Donald Duck needs yellow-oranges and blues, but no reds, for instance). To accomplish this you actually need to run two commands:
+    ```
+    ffmpeg -i input.mov -vf palettegen palette.png
+
+    ffmpeg -i input.mov -i palette.png -vf scale=480:270 output.gif
+    ```
 
 ## CREATING THE MAKE_GIF SHELL COMMAND
 
