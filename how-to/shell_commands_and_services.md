@@ -4,7 +4,7 @@
 
 There are a couple of command line tools that we use a lot for processing video: [ffmpeg and ffprobe](https://ffmpeg.org/).  They may well be installed on your machine already, so type `ffmpeg -version` and `ffprobe -version` to see if you get results.  If you don't, then follow these steps to install:
 
-1. Download ffmpeg and ffprobe [here](https://evermeet.cx/ffmpeg/). You want to download the latest release (on the right) as a DMG.  Once downloaded, double click and it will mount as a disk image. Drag the file into `~/Development/_tools`.
+1. Download ffmpeg and ffprobe [here](https://evermeet.cx/ffmpeg/). You want to download the latest release (on the right) as a DMG. ![ffmpeg download](ll-docs/screenshots/ffmpeg_download.png) Once downloaded, double click and it will mount as a disk image. Drag the file into `~/Development/_tools`.
 2. make sure that the path to the folder holding ffmpeg and ffprobe is in your PATH variable. If you type `echo $PATH` into the terminal, you should see `/Users/ll/Development/_tools` (with "ll" being whatever your user name is).  If you don't see this, open/create a file called `.bash_profile` in your home directory:
 
     ```
