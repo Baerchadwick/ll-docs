@@ -1,4 +1,4 @@
-# CREATING A SERVICE FROM A SHELL SCRIPT
+# CREATING A GIF-MAKING SERVICE FROM A SHELL SCRIPT
 
 ## INSTALLING THE TOOLS
 
@@ -69,6 +69,6 @@ If you REALLY want to streamline the process of making gifs, consider creating a
     If you want to know what this does, it first ensures that the `$PATH` variable contains all the paths we need it to contain if it's going to find all the dependencies.  Then it loops through all the files you've selected and runs the `make_gif.sh` shell command.
 
     ![creating make-gif service](https://github.com/learninglab-dev/ll-docs/blob/master/screenshots/make_gif_service.png)
-    
+
 5. Once you've saved this service, you will be able to right-click on any movie file in Finder and turn it into a .gif. Note that this service won't check to see how big the file is before running, so you could accidentally set your machine an impossible task by selecting a 2-hour-long video instead of a 5 second clip.
 6. To take things to the next level, go into your System Preferences, select Keyboard (in the second row down) then select "Shortcuts", then click "Services" and navigate to the service you've just created. If you select it, you should see a `Add Shortcut` button appear on the right. Click this button and you'll be able to add a key combination for your command. Try to avoid combos your machine may already be trying to use. One move would be to select some combo of the modifier keys and a letter that makes sense. I'm fond of hitting all of the *command+option+ctrl* threesome, so I've made *command+opt+ctrl+"g"* my makeGif command.
