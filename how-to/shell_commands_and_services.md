@@ -4,7 +4,9 @@
 
 There are a couple of command line tools that we use a lot for processing video: [ffmpeg and ffprobe](https://ffmpeg.org/).  They may well be installed on your machine already, so type `ffmpeg -version` and `ffprobe -version` to see if you get results.  If you don't, then follow these steps to install:
 
-1. Download ffmpeg and ffprobe [here](https://evermeet.cx/ffmpeg/). You want to download the latest release (on the right) as a DMG. ![ffmpeg download](https://github.com/learninglab-dev/ll-docs/blob/master/screenshots/ffmpeg_download.png) Once downloaded, double click and it will mount as a disk image. Drag the file into `~/Development/_tools`.
+1. Download ffmpeg and ffprobe [here](https://evermeet.cx/ffmpeg/). You want to download the latest release (on the right) as a DMG.
+![ffmpeg download](https://github.com/learninglab-dev/ll-docs/blob/master/screenshots/ffmpeg_download.png)
+Once downloaded, double click and it will mount as a disk image. Drag the file into `~/Development/_tools`.
 2. make sure that the path to the folder holding ffmpeg and ffprobe is in your PATH variable. If you type `echo $PATH` into the terminal, you should see `/Users/ll/Development/_tools` (with "ll" being whatever your user name is).  If you don't see this, open/create a file called `.bash_profile` in your home directory:
 
     ```
@@ -65,6 +67,8 @@ If you REALLY want to streamline the process of making gifs, consider creating a
     done
     ```
     If you want to know what this does, it first ensures that the `$PATH` variable contains all the paths we need it to contain if it's going to find all the dependencies.  Then it loops through all the files you've selected and runs the `make_gif.sh` shell command.
+
     ![creating make-gif service](https://github.com/learninglab-dev/ll-docs/blob/master/screenshots/make_gif_service.png)
+    
 5. Once you've saved this service, you will be able to right-click on any movie file in Finder and turn it into a .gif. Note that this service won't check to see how big the file is before running, so you could accidentally set your machine an impossible task by selecting a 2-hour-long video instead of a 5 second clip.
 6. To take things to the next level, go into your System Preferences, select Keyboard (in the second row down) then select "Shortcuts", then click "Services" and navigate to the service you've just created. If you select it, you should see a `Add Shortcut` button appear on the right. Click this button and you'll be able to add a key combination for your command. Try to avoid combos your machine may already be trying to use. One move would be to select some combo of the modifier keys and a letter that makes sense. I'm fond of hitting all of the *command+option+ctrl* threesome, so I've made *command+opt+ctrl+"g"* my makeGif command.
