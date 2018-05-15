@@ -12,29 +12,29 @@ To insert a list, just add an `*` or a `-` plus a space for an unordered list or
 ```
 - element 1
 - element two
-- 3
+- three
 ```
 Will give you
 - element 1
 - element two
-- 3
+- three
 And
 ```
 1. element 1
 2. element two
-3. 3
+3. three
 ```
 Will give you
 1. element 1
 2. element two
-3. 3
+3. three
 **NOTE:** you can actually type any old number at the beginning of each ordered list line.  So
 ```
 1. element 1
 4. element two
-1. 3
+1. three
 ```
 Will give you
 1. element 1
 4. element two
-1. 3
+1. three
