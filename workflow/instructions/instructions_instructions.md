@@ -17,3 +17,21 @@ Before you even start typing instructions, you'll need to do a few things:
 5. Once on your new fork of the `ll-docs` repository, you'll want to click the green "clone or download" button and copy the code you see there. Making sure that you are in your `Development` directory, type `git clone` and then your url, making the whole command look something like `git clone https://github.com/learninglab-dev/ll-docs.git`.  This will create a new folder for `ll-docs` (go ahead and type `ls` to list the contents of your present working directory to confirm).
 6. type `cd ll-docs` to change directories
 7. type `atom .` to open up the root folder and all of its contents in Atom (this will only work if you have Atom Shell Commands installed).
+
+You should now be ready to go, with the entire folder structure visible in Atom's left sidebar.
+
+## ADDING TO LL-DOCS
+
+Determine what you'd like to add or change. If you are adding a set of documents related to **The Workflow** then you should
+
+1. create a folder in the `workflow` folder and name it appropriately
+2. create a file with a `.md` extension
+
+If you want to change something--like this document, for instance, just
+
+1. find the appropriate document and open it up in Atom--this document can be found in the `ll-docs/workflow/instructions` folder.
+2. make whatever changes you'd like to make.
+
+Then, once you've changed something (and it doesn't really matter if you've added something new or deleted something old for this step), you'll want to commit those changes to the repository.
+
+1. Type
