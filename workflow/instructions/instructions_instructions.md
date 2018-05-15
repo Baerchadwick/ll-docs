@@ -5,7 +5,6 @@ The goal of the `ll-docs` repository is to offer thorough documentation of all t
 ## SETTING UP WORKING ENVIRONMENT
 
 Before you even start typing instructions, you'll need to do a few things:
-ERIN WAS HERE
 1. You'll need to make sure that you have git installed on the machine you're working on, which shouldn't be a problem if you are using one of the LL machines.  Try typing `git --version` into the Terminal.  If you don't see anything, you can install it [here](https://git-scm.com/download/mac).
 2. You'll need to make sure that you have a text editor--we should have [Atom](https://atom.io/) installed on all the LL machines, and it's easily one of the best free options. Once you install it, be sure to click `Install Shell Commands`, which you'll find in the `Atom` menu once you open the app.
 3. Get yourself into your working directory--we typically ask people on the team to use the `Development` folder we've created in the `Home` directory.  To get there, type `cd ~/Development`.  If you don't have that folder, or want to create another folder, go ahead and type something like
