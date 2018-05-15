@@ -28,6 +28,7 @@ Will give you
 1. element 1
 2. element two
 3. three  
+
 **NOTE:** you can actually type any old number at the beginning of each ordered list line.  So
 ```
 1. element 1
