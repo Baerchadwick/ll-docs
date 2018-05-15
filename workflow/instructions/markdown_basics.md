@@ -59,7 +59,9 @@ Images are extremely similar to links.  Just add
 3. the link to the image surrounded by `( )`
 
 For instance, to get
+
  ![random-cat](https://upload.wikimedia.org/wikipedia/commons/b/bb/Kittyply_edit1.jpg)
+ 
   you would type:
 ```
   ![random-cat](https://upload.wikimedia.org/wikipedia/commons/b/bb/Kittyply_edit1.jpg)
