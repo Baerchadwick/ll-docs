@@ -9,15 +9,15 @@ Go ahead and view the [raw text](https://raw.githubusercontent.com/learninglab-d
 
 ## Lists
 To insert a list, just add an `*` or a `-` plus a space for an unordered list or a number for an ordered list.  For instance:
-    ```
-    - element 1
-    - element two
-    - 3
-    ```
+```
+- element 1
+- element two
+- 3
+```
 Will give you
-    - element 1
-    - element two
-    - 3
+- element 1
+- element two
+- 3
 And
 ```
 1. element 1
