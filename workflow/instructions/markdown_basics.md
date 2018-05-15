@@ -10,23 +10,27 @@ Go ahead and view the [raw text](https://raw.githubusercontent.com/learninglab-d
 ## Lists
 To insert a list, just add an `*` or a `-` plus a space for an unordered list or a number for an ordered list.  For instance:
 ```
-- element 1
-- element two
-- three
+  - element 1
+  - element two
+  - three
 ```
 Will give you
+
 - element 1
 - element two
-- three
-And
+- three  
+
+And  
 ```
-1. element 1
-2. element two
-3. three
+  1. element 1
+  2. element two
+  3. three
 ```
+
 Will give you
+
 1. element 1
-2. element two
+2. element two  
 3. three  
 
 **NOTE:** you can actually type any old number at the beginning of each ordered list line.  So
@@ -35,7 +39,9 @@ Will give you
 4. element two
 1. three
 ```
+
 Will give you
+
 1. element 1
 4. element two
 1. three
