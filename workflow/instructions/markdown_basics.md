@@ -17,7 +17,7 @@ To insert a list, just add an `*` or a `-` plus a space for an unordered list or
 Will give you
 - element 1
 - element two
-- 3
+- 3.
 And
 ```
 1. element 1
