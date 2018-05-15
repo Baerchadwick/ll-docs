@@ -34,4 +34,6 @@ If you want to change something--like this document, for instance, just
 
 Then, once you've changed something (and it doesn't really matter if you've added something new or deleted something old for this step), you'll want to commit those changes to the repository.
 
-1. Type
+1. Type `git add .`
+2. then `git commit -m "some message here"`
+3. then `git push origin master`
