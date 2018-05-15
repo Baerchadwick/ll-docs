@@ -1,5 +1,7 @@
 # MARKDOWN BASICS
 
+You should probably just check out [THIS guide](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#emphasis), but we'll create an **EXTREMELY** short version here with just the basics.
+
 ## Headings
 To insert a heading, just add one or more `#` characters (followed by a space) at the beginning of the line. `#` will give you an `h1`, `##` will give you an `h2`, etc. For instance, at the beginning of this section we typed
 ```
@@ -33,15 +35,32 @@ Will give you
 2. element two  
 3. three  
 
-**NOTE:** you can actually type any old number at the beginning of each ordered list line.  So
+## Emphasis
+
+In order to italicize text, surround it in `_` characters: `_text_` will give you _text_.
+In order to make text bold, surround it in `**` characters: `**text**` will give you **text**.
+
+## Code
+
+To mark text as code, surround it in \` tags if it is a single word or two in the flow of the text. Or, if it's a block, use \`\`\` at the beginning and end of the block.
+
+## Links
+
+For links, surround the text you want the viewer to click with `[ ]` and surround the link itself with `( )`.  For instance to get a link that says "[click here for cats](https://giphy.com/explore/cat)" you would type:
 ```
-1. element 1
-4. element two
-1. three
+  [click here for cats](https://giphy.com/explore/cat)
 ```
 
-Will give you
+## Images
 
-1. element 1
-4. element two
-1. three
+Images are extremely similar to links.  Just add
+1. `!`
+2. the text you'd like screenreaders or bandwidth-constrained users to get surrounded by `[ ]`
+3. the link to the image surrounded by `( )`
+
+For instance, to get
+ ![typing-cat](https://media.giphy.com/media/JIX9t2j0ZTN9S/giphy.gif)
+  you would type:
+```
+  ![typing-cat](https://media.giphy.com/media/JIX9t2j0ZTN9S/giphy.gif)
+```
