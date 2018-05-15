@@ -59,8 +59,8 @@ Images are extremely similar to links.  Just add
 3. the link to the image surrounded by `( )`
 
 For instance, to get
- ![typing-cat](https://media.giphy.com/media/JIX9t2j0ZTN9S/giphy.gif)
+ ![random-cat](https://upload.wikimedia.org/wikipedia/commons/b/bb/Kittyply_edit1.jpg)
   you would type:
 ```
-  ![typing-cat](https://media.giphy.com/media/JIX9t2j0ZTN9S/giphy.gif)
+  ![random-cat](https://upload.wikimedia.org/wikipedia/commons/b/bb/Kittyply_edit1.jpg)
 ```
