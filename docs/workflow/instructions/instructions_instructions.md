@@ -39,3 +39,7 @@ Then, once you've changed something (and it doesn't really matter if you've adde
 3. then `git push origin master`
 
 If you want to speed up this process you can write a script like [this one](https://github.com/learninglab-dev/thescripts/blob/master/ex/sgit).
+
+## SCREENSHOTS
+
+Store your screenshots in an appropriate subfolder of `ll-docs/images` so that you can link to them in your documentation.
