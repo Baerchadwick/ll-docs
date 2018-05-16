@@ -42,4 +42,4 @@ If you want to speed up this process you can write a script like [this one](http
 
 ## SCREENSHOTS
 
-Store your screenshots in an appropriate subfolder of `ll-docs/images` so that you can link to them in your documentation.
+Store your screenshots in an appropriate subfolder of `ll-docs/images` so that you can link to them in your documentation.  Your images will be stored at the URL `https://raw.githubusercontent.com/learninglab-dev/ll-docs/master/`.  What follows `/master/` above will be the relative path to your image (for instance: `https://raw.githubusercontent.com/learninglab-dev/ll-docs/master/images/workflow/make_gif_service.png`).
