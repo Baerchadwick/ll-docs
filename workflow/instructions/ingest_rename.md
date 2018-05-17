@@ -45,17 +45,17 @@ Grab a clear plastic bin to begin your adventure!
 
    - Once you've selected what you'd like to import, we can export this clip as a master file.
 
-   ![master file save](https://raw.githubusercontent.com/ll-fellows/ll-docs/master/screenshots/Saving%20MasterFile%20Export.png)
+   ![master file save]()
 
 7. Once files are done importing, you should see a folder called __Final Cut Original Media__ created in our Ingest folder.
    - Bring these files into their shoot folder, and place each into a file that corresponds to the camera that it came from.
-   ![footage in folder](https://raw.githubusercontent.com/ll-fellows/ll-docs/master/screenshots/Footage%20organized.png)
+   ![footage in folder]()
 
 8. Open a new tab in terminal, and ensure you are in __thelocalworkflow__ directory. If the directory is not connected, refer to the (GITHUB INSTRUCTIONS) to see how to connect!
    - Copy the path to the folder containing the footage and enter __node thelocalworkflow --rename (path)__
-![renaming script](https://raw.githubusercontent.com/ll-fellows/ll-docs/master/screenshots/Scriptformatting.png)
+![renaming script]()
 
    - Hit __Enter__ and you should see the script running! If it's successful your footage should look like this now!
-   ![successfully renamed footage](https://raw.githubusercontent.com/ll-fellows/ll-docs/master/screenshots/Final%20Product.png)
+   ![successfully renamed footage]()
 
 9. That's it! Now that the footage is renamed it can be backed up to the Synologies and RAIDS.
