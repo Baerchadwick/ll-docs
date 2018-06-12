@@ -1,19 +1,19 @@
-Nicholas Cage is the single greatest character actor this generation has ever seen.
+__Nicholas Cage__ is the single greatest character actor this generation has ever seen.
 In this essay I will outline 3 specific examples to support this hypothesis.
 
-1. Face/Off
+# 1. Face/Off
 
   ![world famous actor Nicholas Cage in the 1997 action thriller Face/Off](https://thestudioexec.com/wp-content/uploads/2016/01/faceoff5.jpg)
 
   This is all the evidence I will provide and I think that it speaks for itself.
 
-2. Con Air
+# 2. Con Air
 
-  "Put the bunneh down."
+  __"Put the bunneh down."__
 
   ![world famous character actor Nicholas Cage in the 1997 drama Con Air](http://www.hellonearth.com/movies/conair/plot18.jpg)
 
-  These are the words that shaped a generation. World famous character actor __Nicholas Cage__, years ahead of his time, takes on the systematic oppression of for profit prisons and the lack of progress of prison reform that was taking place during the Clinton administration.
+  These are the words that shaped a generation. World famous character actor __Nicholas Cage__, years ahead of his time, takes on the systematic oppression of for profit prisons and the lack of progress on prison reform that was taking place during the Clinton administration.
 
   ![World famous character actor Nicholas Cage in the 1997 drama Con Air](https://i.ytimg.com/vi/hhmadhbyRd8/maxresdefault.jpg)
 
